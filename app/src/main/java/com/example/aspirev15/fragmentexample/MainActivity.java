@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void selectFrag(View view) {
         Fragment fr;
+        Fragment ft;
 
         if (view == findViewById(R.id.button2)) {
             fr = new FragmentTwo();
